@@ -1,0 +1,7 @@
+1. SELECT S.Stu_id, S.Name, R.Rank FROM records AS R, students AS S where S.Batch_id = $_POST[''] AND S.Stu_id = R.Stu_id ORDER BY R.Rank
+
+2. SELECT S.Stu_id, S.Name, R.Rank FROM records AS R, students AS S where S.Stu_id = R.Stu_id ORDER BY R.Rank 
+
+3. SELECT S.Stu_id, S.Name, S.Batch_id  FROM students AS S, collaborators AS C where S.Collab_id = C.Collab_id 
+
+4. 
